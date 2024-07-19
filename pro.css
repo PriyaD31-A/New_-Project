@@ -1,0 +1,523 @@
+body{
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+/* impact */
+
+.contact{
+    padding: 10px;
+  }
+  .impact{
+    font-weight: bold;
+  }
+  .nav-item{
+    color: white;
+  }
+  .nav-link{
+    color: white;
+ }
+ .nav-link:hover{
+  color: white;
+ }
+
+/* Welcome to impact */
+
+ .to{
+    font-weight: bold;
+    font-size: 60px;
+  }
+  .line{
+    text-align: justify;
+    font-size: 20px;
+  }
+  #welcome{
+    padding: 100px 0px 0px;
+    padding-bottom: 80px;
+}
+  
+ 
+  .box-container{
+    position: relative;
+    margin-top: -100px;
+  }
+  .wel{
+     height: 700px;
+     z-index: 2;
+  }
+  @media screen and (max-width:576px){
+    .wel{
+      height: 2110px;
+    }
+    .box-container{
+      position: relative;
+      margin-top: -1330px;
+    }
+  } 
+  #get{
+    font-size: 20px;
+    color: white;
+    border-radius: 30px;
+    height: 50px;  
+    width: 150px;
+    border-color: white;
+    background-color:rgb(0,131,116);
+
+  }
+  #get:hover{
+    border-color: white;
+    opacity: 0.5;
+    cursor: pointer;
+  }
+ 
+  #watch{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  .wat{
+    text-decoration: none;
+    color: white;
+  }
+  .wat:hover{
+    opacity: 0.8;
+    cursor: pointer;
+  }
+
+  /* box */
+ 
+   #box{
+    border: 5px solid rgb(0,118,104);
+    height: 300px;
+    width: 290px;
+    border-radius: 20px;
+    background-color: rgb(0,118,104);
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    padding: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    z-index: 1;
+  }
+  #box1{
+    font-size: 45px;
+  }
+  #box:hover{
+    opacity: 0.8;
+    cursor: pointer;
+  }
+
+/* About us */
+
+  .about{
+    font-weight: bold;
+    text-align: center;
+  }
+  p{
+    text-align: center;
+    font-size: 20px;
+ }  
+ 
+  .para{
+    font-weight: bold;
+    font-size: 40px;
+  }
+  #img{
+    border-radius: 30px;
+  }
+  #para1{
+    text-align: justify;
+    font-size: 20px;
+  }
+  
+  ul{
+    list-style-type: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 40px;
+  }
+  #check{
+
+    color:rgb(0,118,104); 
+  }
+  .para2{
+    font-size: 20px;
+    text-align: justify;
+  }
+  #img3{
+    border-radius: 30px;
+    position: absolute;
+    z-index: 1;
+  }
+  #play{
+    align-items: center;
+    position:absolute;
+    padding-left: 50px;
+    z-index: 2;
+    margin-top: 210px;
+    margin-left: 230px;
+    color: rgb(0,118,104);
+    font-size: 60px;
+}
+@media screen and (max-width: 576px){
+  #play{
+    color: rgb(0,118,104);
+    margin-top: 100px;
+    margin-left: 95px;
+    font-size: 40px;
+    z-index: 2;
+   
+  }
+}
+
+/* marquee */
+  
+  .mar{
+    margin-top: 40px;
+    justify-content: space-evenly;   
+    
+  } 
+  #mar1{
+    padding-left: 100px;
+
+  }    
+  @media screen and (max-width: 576px){
+    .mar{
+      margin-top: 300px;
+    }
+  }
+ 
+ /* happy clients  */
+  
+  
+  #logo1 i{
+    color: rgb(0,118,104);
+    font-size: 50px;
+  }
+  #num1 {
+    font-size: 45px;
+    font-weight: bold;
+  }
+  #num2 {
+    font-size: 45px;
+    font-weight: bold;
+  }
+  #num3 {
+    font-size: 45px;
+    font-weight: bold;
+  }
+  #num4 {
+    font-size: 45px;
+    font-weight: bold;
+   
+  }
+
+  /* call to action */
+
+  
+  .img5{
+    border-radius: 20px;
+    background-color: white;
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+    padding: 100px 100px 100px 100px;
+    margin-right: 100px;
+    filter: brightness(60%);
+    background-attachment: fixed;
+    height: 550px;
+    width: 1300px;
+    
+  }
+   #img7{
+    padding-top: 100px;
+    padding-bottom: 200px;
+    padding-right: 100px;
+    padding-left: 100px;
+  } 
+  
+  #play1{
+    align-items: center;
+    position: absolute;
+    color: rgb(51, 215, 196);
+    font-size: 100px;
+    z-index: 2;
+    /* margin-bottom: 40px; */
+    /* padding-left: 490px; */
+}
+  .call{
+    z-index: 2;
+    color: white;
+    position: absolute;
+    margin-top: 160px;
+    font-size: 40px;
+    font-weight: bold;
+    /* padding-left: 430px; */
+  }
+  .call1{
+    z-index: 2;
+    color: white;
+    position: absolute;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 230px;
+    font-size: 20px;
+    text-align: center;
+    /* margin-left: 70px; */
+    /* margin-right: 70px; */
+    
+  }
+  .call2{
+    border: 4px solid white;
+    color: white;
+    position: absolute;
+    z-index: 2;
+    margin-top: 330px;
+    /* margin-left: 400px; */
+    padding: 15px;
+    /* padding-right: 50px; */
+    font-size: 20px;
+    /* width: 300px; */
+    text-align: center;
+    border-radius: 10px;
+    align-content: center;
+  }
+  .call2:hover{
+    opacity: 1.5;
+    background-color: rgb(0,118,104);
+    border-color: rgb(0,118,104);
+    cursor: pointer;
+  }
+ 
+/* Our services */
+
+  #our{
+    padding-top: 400px;
+    text-align: center;
+  }
+  .para3{
+    font-size: 15px;
+  }
+  #b1{
+    border: 2px solid beige;
+    height: 400px;
+    width: 390px;
+    margin-right: 10px;
+    margin-left: 40px;
+    background-color: beige;
+    box-shadow: 20px 20px 25px darkgray;
+  }
+  #icon1{
+    margin-right: 200px;
+    font-size: 70px;
+    padding-left: 30px;
+    padding-top: 90px;
+    color: grey;
+  }
+  #icon1:hover{
+      color: black;
+      cursor: pointer;
+  }
+  #nes{
+    padding-left: 20px;
+    color: grey;
+    font-style: normal;
+  }
+  #nes:hover{
+    color: black;
+    cursor: pointer;
+  }
+ .line1{
+   padding-right: 200px;
+   font-weight: bold;
+   color: grey;
+   padding-bottom: 15px;
+ }
+ .line1:hover{
+   color:rgb(0,118,104);
+   cursor: pointer;
+   
+ }
+ .paraa1{
+   font-size: 17px;
+   font-style: normal; 
+   text-align: justify;
+   color: black;
+   padding-left: 20px;
+   cursor: pointer;
+ }
+
+ #read{
+  font-size: 20px;
+  text-decoration: none;
+  font-style: normal;
+  padding-left: 20px;
+ }
+ #read:hover{
+  color: rgb(0,118,104);
+  cursor: pointer; 
+ }
+ .rows{
+  padding-top: 30px;
+ }
+
+/* Testimonails */
+
+ .test{
+  text-align: center;
+  margin-top: 100px;
+ }
+ .card-body{
+  position: relative;
+  height: 280px;
+  width: 400px;
+ }
+ .card-img-top{
+  height: 45%;
+  width: 45%;
+  object-fit: cover;
+  border-radius: 50%;
+  padding: 20px;
+  
+ }
+ .cardd{
+  background-color: white;
+  box-shadow: 10px 10px 15px darkgray;
+  width: 400px;
+  border-color: white;
+  
+ }
+ #star{
+    color: rgb(255,193,7);
+    
+ }
+ .card-text{
+  text-align: justify;
+ }
+ .card-title{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+ }
+ #role{
+  color: grey;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  line-height: 40px;
+ }
+
+
+ /* Portfolio */
+ 
+ .nav-link active{
+  color: black;
+  
+}
+ #navbar1{
+  padding-left: 480px;
+  padding-top: 20px;
+ }
+.navbar1:hover{
+  color: rgb(0,118,104)
+}
+
+ /* .card{
+  height: 420px;
+  padding-left: 20px;
+  border: none;
+ 
+ } */
+ .img-top{
+  transition: transform .2s;
+ }
+ .img-top:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+ }
+
+ /* Team */
+
+.imgtop{
+  border-radius: 20px;
+  margin-top: 50px;
+  box-shadow: 10px 10px 15px darkgray;
+  padding: 20px;
+  
+}
+.social{
+  font-size: 30px;
+  padding-left: 2px;
+  color: grey;
+
+ }
+ #facebook{
+    padding-left:20px;
+ }
+ #facebook:hover{
+    color:rgb(0,118,104);
+    cursor: pointer;
+ }
+
+
+ /* pricing */
+
+ /* .card-titlee{
+  margin-top: 70px;
+ }
+ .cardd1{
+  border: 3px solid grey;
+ }*/
+
+ #border1{
+  border: 3px solid beige;
+  height: 800px;
+  width: 430px;
+  padding-top: 40px;
+  box-shadow: 10px 10px 15px darkgray;
+  border-radius: 20px;
+  margin-top: 50px;
+  padding-right: 20px;
+  margin-bottom: 50px;
+ }
+ #cube1{
+  padding-left: 160px;
+  font-size: 50px;
+  border-radius: 100px;
+  background-color: rgb(0,131,116);
+}
+ #butt{
+  margin-left: 130px;
+  margin-top: 50px;
+  background-color: white;
+  color: black;
+  border-radius: 40px;
+ }
+ #butt:hover{
+    background-color: rgb(0,118,104);
+ }
+ #month{
+  font-size: 40px;
+  text-align: center;
+ }
+ #border2{
+  border: 5px solid beige;
+  height: 800px;
+  width: 450px;
+  background-color: beige;
+  border-color: rgb(0,118,104);
+  box-shadow: 10px 10px 15px darkgray;
+  border-radius: 20px;
+ }  
+ #border3{
+  border: 3px solid beige;
+  height: 800px;
+  width: 430px;
+  background-color: beige;
+  padding-top: 40px;
+  box-shadow: 10px 10px 15px darkgray;
+  border-radius: 20px;
+  margin-top: 50px;
+ }
