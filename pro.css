@@ -1,15 +1,15 @@
-/* #top1{
+#top1{
   position: sticky;
-  top: 0%;
-  z-index: 9999;
-} */
+  top: 0;
+  z-index: 9900;
+}
 
 /* impact  */
 
  #im{
   position: sticky;
-  top: 0%;
-  z-index: 9999;
+  top: 15px;
+  z-index: 99;
 }
 .nav-link:hover{
   color: white;
@@ -213,6 +213,7 @@
  .test2{
   background-color: beige;
   box-shadow: 10px 10px 15px 10px darkgray;
+  
   }
   .card-img-top{
   height: 50%;
@@ -442,7 +443,7 @@
   margin-left: 350px;
   margin-top: 50px;
   background-color:  rgb(26,144,130);
-  border-color: rgb(26,144,130);
+  /* border-color: rgb(26,144,130); */
   font-size: 20px;
   border-radius: 20px;
 }
