@@ -237,13 +237,9 @@
   .nav-item{
     font-size: 15px;
   }
-   .cardd{
-    border: none;
-    /* justify-content: space-around; */
-   }
   .img-top{
     transition: transform .2s;
-    width: 330px;
+    width: 398px;
    }
    .bo{
     width: 330px;
@@ -310,7 +306,7 @@
     border: 5px solid beige;
     height: 900px;
     width: 360px;
-    background-color: beige;
+    background-color: white;
     border-color: rgb(0,118,104);
     box-shadow: 10px 10px 15px darkgray;
     border-radius: 20px;
@@ -319,7 +315,7 @@
     border: 3px solid beige;
     height: 800px;
     width: 355px;
-    background-color: beige;
+    background-color: white;
     padding-top: 40px;
     box-shadow: 10px 10px 15px darkgray;
     border-radius: 20px;
@@ -328,7 +324,7 @@
   /* Questions */
   
    .accordion-button:not(.collapsed){
-    background-color: beige;
+    background-color: white;
     padding: 2px;
     }
    .num1{
