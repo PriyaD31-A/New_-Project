@@ -169,6 +169,33 @@
     padding-right: 60px;
     padding-bottom: 30px;
   }
+  .play1:before{
+    content: '';
+    position: absolute;
+    border: 15px solid rgb(23, 228, 204);
+    border-radius: 100%;
+    margin-top: 40px;
+    margin-left: -5px;
+    height: 60px;
+    width: 60px;
+    opacity: 0.2;
+    animation: bloom1 2s linear infinite;
+  }
+  .play1::after{
+    opacity: 0.1;
+  }
+  @keyframes bloom1
+  {
+    0%{
+      transform: scale(.5);
+    }
+    50%{
+      opacity: 0.5;
+    }
+    100%{
+      transform: scale(1.5);
+    }
+  }
   #img7 h3{
     color: white;
     padding-top: 100px;
@@ -234,12 +261,15 @@
     font-weight: bold;
     padding-left: 5px;
   }
+  .card{
+    border: none;
+  }
   .nav-item{
     font-size: 15px;
   }
   .img-top{
     transition: transform .2s;
-    width: 398px;
+    width: 330px;
    }
    .bo{
     width: 330px;
